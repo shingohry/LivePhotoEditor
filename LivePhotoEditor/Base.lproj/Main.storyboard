@@ -36,6 +36,11 @@
                                 <action selector="buttonDidTouch:" destination="BYZ-38-t0r" id="Own-U6-hzk"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="WuR-Sa-zf2">
+                            <connections>
+                                <action selector="editDidTouch:" destination="BYZ-38-t0r" id="oAO-Ei-igb"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="livePhotoView" destination="4lx-hk-Esn" id="I74-1t-ADx"/>
