@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A730E71DAC7D4C001A6281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A730E61DAC7D4C001A6281 /* AppDelegate.swift */; };
+		C9A730E91DAC7D4C001A6281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A730E81DAC7D4C001A6281 /* ViewController.swift */; };
+		C9A730EC1DAC7D4C001A6281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A730EA1DAC7D4C001A6281 /* Main.storyboard */; };
+		C9A730EE1DAC7D4C001A6281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A730ED1DAC7D4C001A6281 /* Assets.xcassets */; };
+		C9A730F11DAC7D4C001A6281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A730EF1DAC7D4C001A6281 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9A730E31DAC7D4C001A6281 /* LivePhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivePhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A730E61DAC7D4C001A6281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9A730E81DAC7D4C001A6281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9A730EB1DAC7D4C001A6281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A730ED1DAC7D4C001A6281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A730F01DAC7D4C001A6281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9A730F21DAC7D4C001A6281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A730E01DAC7D4C001A6281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A730DA1DAC7D4C001A6281 = {
+			isa = PBXGroup;
+			children = (
+				C9A730E51DAC7D4C001A6281 /* LivePhotoEditor */,
+				C9A730E41DAC7D4C001A6281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A730E41DAC7D4C001A6281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A730E31DAC7D4C001A6281 /* LivePhotoEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A730E51DAC7D4C001A6281 /* LivePhotoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				C9A730E61DAC7D4C001A6281 /* AppDelegate.swift */,
+				C9A730E81DAC7D4C001A6281 /* ViewController.swift */,
+				C9A730EA1DAC7D4C001A6281 /* Main.storyboard */,
+				C9A730ED1DAC7D4C001A6281 /* Assets.xcassets */,
+				C9A730EF1DAC7D4C001A6281 /* LaunchScreen.storyboard */,
+				C9A730F21DAC7D4C001A6281 /* Info.plist */,
+			);
+			path = LivePhotoEditor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A730E21DAC7D4C001A6281 /* LivePhotoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A730F51DAC7D4C001A6281 /* Build configuration list for PBXNativeTarget "LivePhotoEditor" */;
+			buildPhases = (
+				C9A730DF1DAC7D4C001A6281 /* Sources */,
+				C9A730E01DAC7D4C001A6281 /* Frameworks */,
+				C9A730E11DAC7D4C001A6281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivePhotoEditor;
+			productName = LivePhotoEditor;
+			productReference = C9A730E31DAC7D4C001A6281 /* LivePhotoEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A730DB1DAC7D4C001A6281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Shingo Hiraya";
+				TargetAttributes = {
+					C9A730E21DAC7D4C001A6281 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9A730DE1DAC7D4C001A6281 /* Build configuration list for PBXProject "LivePhotoEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A730DA1DAC7D4C001A6281;
+			productRefGroup = C9A730E41DAC7D4C001A6281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A730E21DAC7D4C001A6281 /* LivePhotoEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A730E11DAC7D4C001A6281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A730F11DAC7D4C001A6281 /* LaunchScreen.storyboard in Resources */,
+				C9A730EE1DAC7D4C001A6281 /* Assets.xcassets in Resources */,
+				C9A730EC1DAC7D4C001A6281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A730DF1DAC7D4C001A6281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A730E91DAC7D4C001A6281 /* ViewController.swift in Sources */,
+				C9A730E71DAC7D4C001A6281 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9A730EA1DAC7D4C001A6281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A730EB1DAC7D4C001A6281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9A730EF1DAC7D4C001A6281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A730F01DAC7D4C001A6281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A730F31DAC7D4C001A6281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A730F41DAC7D4C001A6281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9A730F61DAC7D4C001A6281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivePhotoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shingohry.LivePhotoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C9A730F71DAC7D4C001A6281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivePhotoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shingohry.LivePhotoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A730DE1DAC7D4C001A6281 /* Build configuration list for PBXProject "LivePhotoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A730F31DAC7D4C001A6281 /* Debug */,
+				C9A730F41DAC7D4C001A6281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A730F51DAC7D4C001A6281 /* Build configuration list for PBXNativeTarget "LivePhotoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A730F61DAC7D4C001A6281 /* Debug */,
+				C9A730F71DAC7D4C001A6281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A730DB1DAC7D4C001A6281 /* Project object */;
+}
