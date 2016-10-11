@@ -24,8 +24,6 @@ class ViewController: UIViewController {
     }
     
     fileprivate var asset: PHAsset?
-    private lazy var formatIdentifier = Bundle.main.bundleIdentifier!
-    private let formatVersion = "1.0"
     
     // MARK: - Life Cycle
 
@@ -44,7 +42,17 @@ class ViewController: UIViewController {
 
     // MARK: - Action
 
-    @IBAction func buttonDidTouch(_ sender: AnyObject) {
+    @IBAction func addButtonDidTouch(_ sender: AnyObject) {
+        self.showImagePicker()
+    }
+
+    @IBAction func editButtonDidTouch(_ sender: UIBarButtonItem) {
+        self.showAlertController()
+    }
+
+    // MARK: - Private
+    
+    private func showImagePicker() {
         let controller = UIImagePickerController()
         controller.delegate = self
         controller.sourceType = .photoLibrary
@@ -52,12 +60,6 @@ class ViewController: UIViewController {
         controller.mediaTypes = [kUTTypeImage as String, kUTTypeLivePhoto as String]
         self.present(controller, animated: true, completion: nil)
     }
-    
-    @IBAction func editDidTouch(_ sender: UIBarButtonItem) {
-        self.showAlertController()
-    }
-    
-    // MARK: - Private
     
     private func showAlertController() {
         guard let asset = self.asset else { return }
@@ -115,13 +117,16 @@ class ViewController: UIViewController {
         })
     }
     
-    func applyFilter(_ filterName: String) {
+    private func applyFilter(_ filterName: String) {
         guard let asset = self.asset else { return }
+        
+        let formatIdentifier = Bundle.main.bundleIdentifier!
+        let formatVersion = "1.0"
         
         // Set up a handler to make sure we can handle prior edits.
         let options = PHContentEditingInputRequestOptions()
         options.canHandleAdjustmentData = { adjustmentData in
-            return adjustmentData.formatIdentifier == self.formatIdentifier && adjustmentData.formatVersion == self.formatVersion
+            return adjustmentData.formatIdentifier == formatIdentifier && adjustmentData.formatVersion == formatVersion
         }
         
         // Check whether the asset supports the content editing operation
@@ -132,8 +137,8 @@ class ViewController: UIViewController {
             guard let input = input else { fatalError("can't get content editing input: \(info)") }
             
             // Create PHAdjustmentData
-            let adjustmentData = PHAdjustmentData(formatIdentifier: self.formatIdentifier,
-                                                  formatVersion: self.formatVersion,
+            let adjustmentData = PHAdjustmentData(formatIdentifier: formatIdentifier,
+                                                  formatVersion: formatVersion,
                                                   data: filterName.data(using: .utf8)!)
             
             // Create PHContentEditingOutput and set PHAdjustmentData
@@ -167,7 +172,7 @@ class ViewController: UIViewController {
         })
     }
     
-    func revertAsset() {
+    private func revertAsset() {
         guard let asset = self.asset else { return }
         
         // Commit the edit to the Photos library.

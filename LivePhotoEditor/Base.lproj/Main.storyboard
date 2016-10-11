@@ -33,12 +33,12 @@
                     <navigationItem key="navigationItem" id="OdU-YU-QA3">
                         <barButtonItem key="leftBarButtonItem" systemItem="add" id="9Oe-rk-32q">
                             <connections>
-                                <action selector="buttonDidTouch:" destination="BYZ-38-t0r" id="Own-U6-hzk"/>
+                                <action selector="addButtonDidTouch:" destination="BYZ-38-t0r" id="4g5-hz-C57"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="edit" id="WuR-Sa-zf2">
                             <connections>
-                                <action selector="editDidTouch:" destination="BYZ-38-t0r" id="oAO-Ei-igb"/>
+                                <action selector="editButtonDidTouch:" destination="BYZ-38-t0r" id="uTT-8c-9pg"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
